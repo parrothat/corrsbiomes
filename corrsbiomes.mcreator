@@ -1,0 +1,152 @@
+{
+  "mod_elements": [
+    {
+      "name": "Melldouve",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melldouve",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/corrsbiomes/worldgen/biome/melldouve.json"
+        ]
+      }
+    },
+    {
+      "name": "GrayGrove",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_grove",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/corrsbiomes/worldgen/placed_feature/gray_grove_tree.json",
+          "src/main/resources/data/corrsbiomes/worldgen/biome/gray_grove.json",
+          "src/main/resources/data/corrsbiomes/worldgen/configured_feature/gray_grove_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "GrayLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/corrsbiomes/block/GrayLeavesBlock.java",
+          "src/main/resources/assets/corrsbiomes/models/item/gray_leaves.json",
+          "src/main/resources/assets/corrsbiomes/models/block/gray_leaves.json",
+          "src/main/resources/data/corrsbiomes/loot_table/blocks/gray_leaves.json",
+          "src/main/resources/assets/corrsbiomes/blockstates/gray_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "SandPlateau",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_plateau",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/corrsbiomes/worldgen/biome/sand_plateau.json"
+        ]
+      }
+    },
+    {
+      "name": "FlowerPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_painting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/corrsbiomes/painting_variant/flower_painting.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:GrayGrove",
+      "~CUSTOM:Melldouve"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:GrayGrove"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:GrayLeaves"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:SandPlateau"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:SandPlateau"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:SandPlateau"
+    ],
+    "BIOMES:minecraft:has_structure/village_desert": [
+      "~CUSTOM:SandPlateau"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:GrayGrove"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "biome.flower_paradise.melldouve": "Melldouwei",
+      "biome.flower_paradise.gray_grove": "Blue Grove",
+      "block.flower_paradise.gray_leaves": "Gray Leaves",
+      "biome.flower_paradise.sand_plateau": "Sand Plateau",
+      "painting.flower_paradise.flower_painting.author": "correlationwx",
+      "painting.flower_paradise.flower_painting.title": "Flower Painting",
+      "biome.corrsbiomes.melldouve": "Melldouwei",
+      "biome.corrsbiomes.gray_grove": "Blue Grove",
+      "block.corrsbiomes.gray_leaves": "Gray Leaves",
+      "biome.corrsbiomes.sand_plateau": "Sand Plateau",
+      "painting.corrsbiomes.flower_painting.title": "Flower Painting",
+      "painting.corrsbiomes.flower_painting.author": "correlationwx"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/corrsbiomes/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/corrsbiomes/init/CorrsbiomesModBiomes.java",
+      "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
+      "src/main/java/net/mcreator/corrsbiomes/init/CorrsbiomesModBlocks.java",
+      "src/main/java/net/mcreator/corrsbiomes/init/CorrsbiomesModItems.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/corrsbiomes.mixins.json",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/corrsbiomes/CorrsbiomesMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "corrsbiomes",
+    "modName": "Corr‘s Biomes",
+    "version": "1.0.0",
+    "author": "CorrelationWX",
+    "websiteURL": "github.com/parrothat/corrsbiomes",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "flowers",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Corr‘s Biomes is a biome mod that adds 3 new biomes (In the 1.0.0) into Minecraft",
+    "modElementsPackage": "net.mcreator.corrsbiomes"
+  },
+  "mcreatorVersion": 202500345720
+}

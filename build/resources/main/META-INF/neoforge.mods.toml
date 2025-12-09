@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT License"
+
+[[mods]]
+modId="corrsbiomes"
+version="1.0.0"
+displayName="Corr\u2018s Biomes"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Corr\u2018s Biomes is a biome mod that adds 3 new biomes (In the 1.0.0) into Minecraft"
+authors="CorrelationWX"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[mixins]]
+    config = "corrsbiomes.mixins.json"
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.corrsbiomes]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.190,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.corrsbiomes]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

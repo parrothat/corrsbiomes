@@ -1,0 +1,190 @@
+{
+  "mod_elements": [
+    {
+      "name": "Melldouve",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melldouve",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flower_paradise/worldgen/biome/melldouve.json"
+        ]
+      }
+    },
+    {
+      "name": "GrayGrove",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_grove",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flower_paradise/worldgen/placed_feature/gray_grove_tree.json",
+          "src/main/resources/data/flower_paradise/worldgen/configured_feature/gray_grove_tree.json",
+          "src/main/resources/data/flower_paradise/worldgen/biome/gray_grove.json"
+        ]
+      }
+    },
+    {
+      "name": "GrayLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flower_paradise/loot_table/blocks/gray_leaves.json",
+          "src/main/resources/assets/flower_paradise/models/block/gray_leaves.json",
+          "src/main/resources/assets/flower_paradise/blockstates/gray_leaves.json",
+          "src/main/java/net/mcreator/flowerparadise/block/GrayLeavesBlock.java",
+          "src/main/resources/assets/flower_paradise/models/item/gray_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "SandPlateau",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_plateau",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flower_paradise/worldgen/biome/sand_plateau.json"
+        ]
+      }
+    },
+    {
+      "name": "GrayLeavesRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_leaves_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flower_paradise/recipe/gray_leaves_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlowerPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_painting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flower_paradise/painting_variant/flower_painting.json"
+        ]
+      }
+    },
+    {
+      "name": "GrayGroveBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_grove_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flower_paradise/loot_table/blocks/gray_grove_block.json",
+          "src/main/resources/assets/flower_paradise/models/block/gray_grove_block.json",
+          "src/main/resources/assets/flower_paradise/models/item/gray_grove_block.json",
+          "src/main/java/net/mcreator/flowerparadise/block/GrayGroveBlockBlock.java",
+          "src/main/resources/assets/flower_paradise/blockstates/gray_grove_block.json"
+        ]
+      }
+    },
+    {
+      "name": "GRaygrovedirt2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_raygrovedirt_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flower_paradise/models/block/g_raygrovedirt_2.json",
+          "src/main/resources/assets/flower_paradise/models/item/g_raygrovedirt_2.json",
+          "src/main/resources/assets/flower_paradise/blockstates/g_raygrovedirt_2.json",
+          "src/main/java/net/mcreator/flowerparadise/block/GRaygrovedirt2Block.java",
+          "src/main/resources/data/flower_paradise/loot_table/blocks/g_raygrovedirt_2.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:GrayGrove",
+      "~CUSTOM:Melldouve"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:GrayGrove"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:GrayLeaves"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:SandPlateau"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:SandPlateau"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:SandPlateau"
+    ],
+    "BIOMES:minecraft:has_structure/village_desert": [
+      "~CUSTOM:SandPlateau"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:GrayGrove"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "biome.flower_paradise.melldouve": "Melldouwei",
+      "biome.flower_paradise.gray_grove": "Blue Grove",
+      "block.flower_paradise.gray_leaves": "Gray Leaves",
+      "biome.flower_paradise.sand_plateau": "Sand Plateau",
+      "painting.flower_paradise.flower_painting.author": "correlationwx",
+      "painting.flower_paradise.flower_painting.title": "Flower Painting",
+      "block.flower_paradise.gray_grove_block": "Gray Grove Block",
+      "block.flower_paradise.g_raygrovedirt_2": "G Raygrovedirt 2"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/flowerparadise/init/FlowerParadiseModBiomes.java",
+      "src/main/java/net/mcreator/flowerparadise/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
+      "src/main/java/net/mcreator/flowerparadise/init/FlowerParadiseModBlocks.java",
+      "src/main/java/net/mcreator/flowerparadise/init/FlowerParadiseModItems.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/flowerparadise/FlowerParadiseMod.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/flower_paradise.mixins.json"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "flower_paradise",
+    "modName": "Flower Paradise",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.flowerparadise"
+  },
+  "mcreatorVersion": 202500345720
+}

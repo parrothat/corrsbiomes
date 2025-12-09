@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "corrsbiomes:blocks/gray_leaves",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "corrsbiomes:gray_leaves"
+        }
+      ]
+    }
+  ]
+}

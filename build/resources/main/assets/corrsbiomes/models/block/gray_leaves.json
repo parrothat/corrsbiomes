@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "corrsbiomes:block/gray_soft_leaves_d",
+    "particle": "corrsbiomes:block/gray_soft_leaves_d"
+  }
+}

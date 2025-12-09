@@ -1,0 +1,37 @@
+/locate biome flower_paradise:melldouve
+/tp @s 1895 116 -2098
+/locate biome flower_paradise:melldouve
+/tp @s 1084 64 -849
+/locate biome flower_paradise:melldouve
+/tp @s -2152 75 -2116
+/locate biome flower_paradise:melldouve
+/tp @s -1954 81 1241
+/locate biome flower_paradise:melldouve
+/tp @s -56 83 13
+/locate biome flower_paradise:melldouve
+/tp @s -1544 67 248
+/locate biome flower_paradise:pastel_grove
+/tp @s 239 -30 -233
+/locate biome flower_paradise:melldouve
+/tp @s 719 56 247
+/locate biome flower_paradise:pastel_grove
+/tp @s -444 -59 -1157
+/locate biome flower_paradise:pastel_grove
+/tp @s 121 -57 -27
+/locate biome flower_paradise:melldouve
+/tp @s 185 -56 37
+/locate biome flower_paradise:gray_grove
+/tp @s 641 69 -321
+/locate biome flower_paradise:gray_grove
+/tp @s -441 194 -361
+/locate biome flower_paradise:sand_plateau
+/locate biome minecraft:plains
+/tp @s 582 106 182
+/locate structure minecraft:mansion
+/tp @s -528 ~ -1200
+/locate biome flower_paradise:gray_grove
+/tp @s -153 68 152
+/locate structure minecraft:mansion
+/tp @s -1936 ~ 112
+/locate biome flower_paradise:sand_plateau
+/tp @s 1030 97 -2427
